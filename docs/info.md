@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This project converts a 4 bit BCD input into a 7segment 
+run with zyxw out 01234567
 
 ## How to test
 
-To test the project program the FPGA board with the generated
+simulate a counter of 4 bits
 
 ## External hardware
 
- On-board 7 segment display for output
+display of 7 segments
