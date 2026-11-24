@@ -9,12 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project converts a 4 bit BCD input into a 7segment display output The input is processed by a decoder that activates the corresponding segments to display decimal numbers from 0 to 9 The design is implemented using digital logic on an FPGA board
 
 ## How to test
 
-Explain how to use your project
+To test the project program the FPGA board with the generated configuration file. Use the input switches to select different 4-bit BCD combinations The 7-segment display should show the corresponding decimal number for valid BCD inputs 0000 to 1001
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+ FPGA development board Basys 2
+ On-board switches for BCD input
+ On-board 7 segment display for output
+ USB programming cable
